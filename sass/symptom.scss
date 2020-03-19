@@ -1,0 +1,86 @@
+.symptom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/2block/bg.png);
+    background-size: cover;
+    
+}
+.symptom_title{
+    margin-top: 120px;
+    width: 70.83%;
+        font-size: 49px;
+        font-family: "Roboto";
+        color: rgb(46, 44, 53);
+        font-weight: bold;
+        line-height: 1.02;
+        text-align: center;
+        span{
+            color:#f56856
+        }       
+}
+.symptom_content{
+    display: flex;
+    margin-bottom: 150px;
+}
+.symptom_list{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.symptome_box{
+    display: flex;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.symptome_box_img{
+flex:1;
+}
+.symptome_box_text{
+    padding-left: 50px;
+    
+    h3{
+        font-size: 32px;
+        font-family: "Roboto";
+        color: #2e2c35;
+        font-weight: bold;
+        line-height: 1.563;
+        text-align: left;
+        margin-bottom: -15px;
+        margin-top: -10px;
+          }
+    p{
+      
+            font-size: 20px;
+            font-family: "Roboto";
+            color: rgb(126, 124, 137);
+            line-height: 2;
+
+    }
+
+}
+.symptom_content_img{
+    flex:1;
+}
+
+.conclusion{
+display: flex;
+p{  
+   
+    font-family: "Roboto";
+    color: #3b3944;
+    line-height: 1.231;
+    padding-left: 50px;
+    margin-top: -4px;
+}
+p::before{
+    content:""
+    
+}
+}
+.conclusion_img{
+border-top: solid 2px #b9cfdd;
+margin-top: -5px;
+padding-top: 5px;
+ }
+ 

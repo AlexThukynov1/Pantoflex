@@ -1,0 +1,30 @@
+.ibg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    }
+    .ibg img{
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    }
+    
+    .full_srceen{
+        flex:1 0 100%;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .full_screen_bg{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left:0; 
+    }
